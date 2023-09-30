@@ -1,0 +1,6 @@
+<?php 
+$teamArray = array("Real Madrid","Man. City","Bayrn Muneh","Зенит");
+shuffle($teamArray);
+echo array_pop($teamArray)," vs ",array_pop($teamArray),"<br>";
+echo array_pop($teamArray)," vs ",array_pop($teamArray),"<br>";
+?>
